@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="onedark-pro-bold-italic" name="One Dark Pro (Bold+Italic)" kind="dark">
+  <description>Atom One Dark Pro theme based on the official VS Code colors</description>
+
+  <!-- One Dark Pro Palette -->
+  <color name="odp_bg"            value="#282c34"/>
+  <color name="odp_fg"            value="#abb2bf"/>
+  <color name="odp_cursor"        value="#528bff"/>
+  <color name="odp_selection"     value="#3e4451"/>
+  <color name="odp_current_line"  value="#2c313c"/>
+  <color name="odp_line_numbers"  value="#495162"/>
+  <color name="odp_bracket_match" value="#515a6b"/>
+  <color name="odp_whitespace"    value="#3b4048"/>
+  <color name="odp_comment"       value="#7f848e"/>
+  <color name="odp_coral"         value="#e06c75"/>
+  <color name="odp_whiskey"       value="#d19a66"/>
+  <color name="odp_chalky"        value="#e5c07b"/>
+  <color name="odp_green"         value="#98c379"/>
+  <color name="odp_cyan"          value="#56b6c2"/>
+  <color name="odp_malibu"        value="#61afef"/>
+  <color name="odp_purple"        value="#c678dd"/>
+  <color name="odp_error"         value="#c24038"/>
+  <color name="odp_white"         value="#ffffff"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="odp_fg" background="odp_bg"/>
+  <style name="selection"                   foreground="odp_fg" background="odp_selection"/>
+  <style name="cursor"                      foreground="odp_cursor"/>
+  <style name="secondary-cursor"            foreground="odp_cursor"/>
+  <style name="current-line"                background="odp_current_line"/>
+  <style name="line-numbers"                foreground="odp_line_numbers" background="odp_bg"/>
+  <style name="draw-spaces"                 foreground="odp_whitespace"/>
+  <style name="background-pattern"          background="odp_bg"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="odp_white" background="odp_bracket_match" bold="true"/>
+  <style name="bracket-mismatch"            foreground="odp_white" background="odp_error"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="odp_line_numbers" background="odp_current_line"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="odp_bg" background="odp_whiskey"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="odp_comment" italic="true"/>
+  <style name="def:shebang"                 foreground="odp_comment" bold="true"/>
+  <style name="def:doc-comment-element"     italic="true"/>
+
+  <!-- Constants & Literals -->
+  <style name="def:constant"                foreground="odp_whiskey"/>
+  <style name="def:string"                  foreground="odp_green"/>
+  <style name="def:special-char"            foreground="odp_cyan"/>
+  <style name="def:special-constant"        foreground="odp_whiskey"/>
+  <style name="def:floating-point"          foreground="odp_whiskey"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="odp_coral"/>
+
+  <!-- Statements & Keywords -->
+  <style name="def:statement"               foreground="odp_purple" bold="true"/>
+
+  <!-- Types & Classes -->
+  <style name="def:type"                    foreground="odp_chalky" bold="true"/>
+
+  <!-- Markup -->
+  <style name="def:emphasis"                italic="true"/>
+  <style name="def:strong-emphasis"         foreground="odp_chalky" bold="true"/>
+  <style name="def:inline-code"             foreground="odp_green"/>
+  <style name="def:insertion"               underline="single"/>
+  <style name="def:deletion"                strikethrough="true"/>
+  <style name="def:link-text"               foreground="odp_malibu"/>
+  <style name="def:link-symbol"             foreground="odp_purple" bold="true"/>
+  <style name="def:link-destination"        foreground="odp_malibu" italic="true" underline="single"/>
+  <style name="def:heading"                 foreground="odp_coral" bold="true"/>
+  <style name="def:thematic-break"          foreground="odp_green" bold="true"/>
+  <style name="def:preformatted-section"    foreground="odp_green"/>
+  <style name="def:list-marker"             foreground="odp_coral" bold="true"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="odp_purple"/>
+  <style name="def:error"                   foreground="odp_white" background="odp_error" bold="true"/>
+  <style name="def:warning"                 foreground="odp_bg" background="odp_whiskey"/>
+  <style name="def:note"                    foreground="odp_malibu" bold="true"/>
+  <style name="def:net-address"             foreground="odp_malibu" italic="true" underline="single"/>
+</style-scheme>
