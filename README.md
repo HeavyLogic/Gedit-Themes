@@ -1,4 +1,4 @@
-# Goedit-Themes
+# Gedit-Themes
 
 Some themes for Gedit version 50.0+
 
