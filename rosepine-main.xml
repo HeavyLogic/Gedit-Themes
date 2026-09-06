@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style-scheme id="rosepine-main" name="Rose Pine Main" kind="dark">
+  <description>All natural pine, faux fur and a bit of soho vibes for Gedit</description>
+
+  <!-- Rose Pine Palette -->
+  <color name="rose_base"       value="#191724"/>
+  <color name="rose_surface"    value="#1f1d2e"/>
+  <color name="rose_overlay"    value="#26233a"/>
+  <color name="rose_muted"      value="#6e6a86"/>
+  <color name="rose_subtle"     value="#908caa"/>
+  <color name="rose_text"       value="#e0def4"/>
+  <color name="rose_love"       value="#eb6f92"/>
+  <color name="rose_gold"       value="#f6c177"/>
+  <color name="rose_rose"       value="#ebbcba"/>
+  <color name="rose_pine"       value="#31748f"/>
+  <color name="rose_foam"       value="#9ccfd8"/>
+  <color name="rose_iris"       value="#c4a7e7"/>
+  <color name="rose_hl_low"     value="#21202e"/>
+  <color name="rose_hl_med"     value="#403d52"/>
+  <color name="rose_hl_high"    value="#524f67"/>
+
+  <!-- Global Settings -->
+  <style name="text"                        foreground="rose_text" background="rose_base"/>
+  <style name="selection"                   foreground="rose_text" background="rose_hl_med"/>
+  <style name="cursor"                      foreground="rose_text"/>
+  <style name="secondary-cursor"            foreground="rose_text"/>
+  <style name="current-line"                background="rose_surface"/>
+  <style name="line-numbers"                foreground="rose_muted" background="rose_base"/>
+  <style name="draw-spaces"                 foreground="rose_muted"/>
+  <style name="background-pattern"          background="rose_base"/>
+
+  <!-- Bracket Matching -->
+  <style name="bracket-match"               foreground="rose_base" background="rose_pine"/>
+  <style name="bracket-mismatch"            foreground="rose_text" background="rose_love"/>
+
+  <!-- Right Margin -->
+  <style name="right-margin"                foreground="rose_muted" background="rose_surface"/>
+
+  <!-- Search Matching -->
+  <style name="search-match"                foreground="rose_base" background="rose_foam"/>
+
+  <!-- Comments -->
+  <style name="def:comment"                 foreground="rose_muted" italic="false"/>
+  <style name="def:shebang"                 foreground="rose_muted"/>
+  <style name="def:doc-comment-element"     italic="false"/>
+
+  <!-- Constants -->
+  <style name="def:constant"                foreground="rose_love"/>
+  <style name="def:string"                  foreground="rose_gold"/>
+  <style name="def:special-char"            foreground="rose_rose"/>
+  <style name="def:special-constant"        foreground="rose_rose"/>
+  <style name="def:floating-point"          foreground="rose_rose"/>
+
+  <!-- Identifiers -->
+  <style name="def:identifier"              foreground="rose_text"/>
+
+  <!-- Statements -->
+  <style name="def:statement"               foreground="rose_pine"/>
+
+  <!-- Types -->
+  <style name="def:type"                    foreground="rose_foam"/>
+
+  <!-- Markup -->
+  <style name="def:emphasis"                italic="false"/>
+  <style name="def:strong-emphasis"         foreground="rose_gold"/>
+  <style name="def:inline-code"             foreground="rose_gold"/>
+  <style name="def:insertion"               underline="single"/>
+  <style name="def:deletion"                strikethrough="true"/>
+  <style name="def:link-text"               foreground="rose_iris"/>
+  <style name="def:link-symbol"             foreground="rose_foam"/>
+  <style name="def:link-destination"        foreground="rose_foam" italic="false" underline="single"/>
+  <style name="def:heading"                 foreground="rose_iris"/>
+  <style name="def:thematic-break"          foreground="rose_gold"/>
+  <style name="def:preformatted-section"    foreground="rose_gold"/>
+  <style name="def:list-marker"             foreground="rose_iris"/>
+
+  <!-- Others -->
+  <style name="def:preprocessor"            foreground="rose_iris"/>
+  <style name="def:error"                   foreground="rose_base" background="rose_love"/>
+  <style name="def:warning"                 foreground="rose_base" background="rose_gold"/>
+  <style name="def:note"                    foreground="rose_foam"/>
+  <style name="def:net-address"             italic="false" underline="single"/>
+</style-scheme>
